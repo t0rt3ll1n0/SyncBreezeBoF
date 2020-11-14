@@ -1,10 +1,9 @@
-# SyncBreeze Buffer OverFlow > Remote Code Execution
+# SyncBreeze Buffer OverFlow for Remote Code Execution
 POST data buffer overflow
 ## How it works?
 That easy BoF, rewritten by me, will overwrite the buffer and execute the shellcode
 ## Vuln machines:
-WindowsXP SP3
-Windows7
+WindowsXP SP3 and Windows7
 ## Launch:
 ````~$ python3 SyncBreeze.py <host> <port>````
 ## Change the ShellCode with your own!!
