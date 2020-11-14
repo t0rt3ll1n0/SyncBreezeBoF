@@ -1,4 +1,4 @@
-# SyncBreeze Buffer OverFlow for Remote Code Execution
+# SyncBreeze 10.0.28 Buffer OverFlow for Remote Code Execution
 POST data buffer overflow
 ## How it works?
 That easy BoF, rewritten by me, will overwrite the buffer and execute the shellcode
