@@ -3,7 +3,7 @@ POST data buffer overflow, the CVE score is 7.5 but the impact is critical
 ## How it works?
 That easy BoF, rewritten by me, will overwrite the buffer and execute the shellcode
 ## Vuln machines:
-WindowsXP SP3 and Windows7
+Windows 7 
 ## Launch:
 ````~$ python3 SyncBreeze.py <host> <port>````
 ## Change the ShellCode with your own!!
