@@ -1,5 +1,5 @@
-# SyncBreeze 10.0.28 Buffer OverFlow for Remote Code Execution
-POST data buffer overflow
+# SyncBreeze 10.0.28 Buffer OverFlow for Remote Code Execution [CVE-2017-14980]
+POST data buffer overflow, the CVE score is 7.5 but the impact is critical
 ## How it works?
 That easy BoF, rewritten by me, will overwrite the buffer and execute the shellcode
 ## Vuln machines:
